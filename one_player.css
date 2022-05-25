@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,400;8..144,600;8..144,1000&display=swap');
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-height: 100vh;
+    background-color: #14142c;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+header {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 1000;
+    margin: 0;
+    color: #e66465;
+    padding-top: 25px;
+}
+
+h2 {
+    color: #2132e4
+}
+
+h3 {
+    color: #2132e4;
+    margin-right: 25px;
+}
+
+h4 {
+    color: #2132e4
+}
+
+p {
+    margin: 0;
+    color: #e66465;
+}
+
+.scorecard {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: #e66465;
+    margin-top: 25px;
+}
+
+.dice-roll {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.roll-area img {
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 15%;
+    border: none;
+    background: radial-gradient(#e66465, #2132e4);
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    user-select: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: radial-gradient(#2132e4, #e66465);
+}
+
+.record {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: #e66465;
+    margin-top: 25px;
+}
